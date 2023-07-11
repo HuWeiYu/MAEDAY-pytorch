@@ -19,21 +19,21 @@ python run_MAEDAY.py
 ## Result
 |   Catgory  | Paper(Img level) | The code(Img level) | 
 |:--------:|:--------:|:--------:|
-|  carpet  |          |          |
-|  grid    |          |          |
-|  leather |          |          |
-|  tile    |          |          |
-|  wood    |          |          |
-|  bottle  |          |          |
-|  cable   |          |          |
-|  capsule |          |          |
-|  hazelnut|          |          |
-| metal nut|          |          |
-|  pill    |          |          |
-|  screw   |          |          |
-| toothbrus|          |          |
-|transistor|          |          |
-|  zipper  |          |          |
+|  carpet  |   74.6       |          |
+|  grid    |    97.9        |          |
+|  leather |    97.9      |          |
+|  tile    |     84.3     |          |
+|  wood    |     84.3     |          |
+|  bottle  |  74.3        |          |
+|  cable   |    53.0      |          |
+|  capsule |   64.0       |          |
+|  hazelnut|      97.1    |          |
+| metal_nut|       43.6   |          |
+|  pill    |   43.6       |          |
+|  screw   |     69.9     |          |
+| toothbrush|     69.9     |          |
+|transistor|      48.3    |          |
+|  zipper  |       82.0   |          |
 
 
 
