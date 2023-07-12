@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python run_MAEDAY.py
 ```
 ## Result
-|   Catgory  | Paper(Img level) | The code(Img level) | 
+|   Catgory  | Paper(Img level) | This code(Img level) | 
 |:--------:|:--------:|:--------:|
 |  carpet  |   74.6       |    45.5       |
 |  grid    |    97.9        |   68.6      |
