@@ -35,7 +35,7 @@ python run_MAEDAY.py
 |transistor|      48.3    |    49.2      |
 |  zipper  |       82.0   |     64.3     |
 
-As you can see, there is quite a margin between us, maybe that's because there is some tricks that the origin auther that don't mention in the paper. This is a （+-5）in the Img-level roc_auc in this code， because the 32 MAE mask is generated randomly， that some mask maybe perfect, so the score will rise, if you are lucky. I don't run like 10 time to get a mean value.
+As you can see, there is quite a margin between us, maybe that's because there is some tricks that the origin auther that don't mention in the paper. There is a （+-5）in the Img-level roc_auc in this code， because the 32 MAE mask is generated randomly， that some mask maybe perfect (it covers the overall defect area), so the score will rise, if you are lucky. I don't run like 10 time to get a mean value.
 
 
 ## CKPT
