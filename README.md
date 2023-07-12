@@ -19,22 +19,23 @@ python run_MAEDAY.py
 ## Result
 |   Catgory  | Paper(Img level) | The code(Img level) | 
 |:--------:|:--------:|:--------:|
-|  carpet  |   74.6       |          |
-|  grid    |    97.9        |          |
-|  leather |    97.9      |          |
-|  tile    |     84.3     |          |
-|  wood    |     84.3     |          |
-|  bottle  |  74.3        |          |
-|  cable   |    53.0      |          |
-|  capsule |   64.0       |          |
-|  hazelnut|      97.1    |          |
-| metal_nut|       43.6   |          |
-|  pill    |   43.6       |          |
-|  screw   |     69.9     |          |
-| toothbrush|     69.9     |          |
-|transistor|      48.3    |          |
-|  zipper  |       82.0   |          |
+|  carpet  |   74.6       |    45.5       |
+|  grid    |    97.9        |   68.6      |
+|  leather |    92.9      |    61.5      |
+|  tile    |     84.3     |     51.8     |
+|  wood    |     94.8     |   56.5       |
+|  bottle  |  74.3        |    87.4      |
+|  cable   |    53.0      |    39.6      |
+|  capsule |   64.0       |    51.4     |
+|  hazelnut|      97.1    |    89.3      |
+| metal_nut|       43.6   |     46.7     |
+|  pill    |     63.4       |   56.9      |
+|  screw   |     69.9     |   52.8       |
+| toothbrush|     77.5     |   42.8       |
+|transistor|      48.3    |    49.2      |
+|  zipper  |       82.0   |     64.3     |
 
+As you can see, there is quite a margin between us, maybe that's because there is some tricks that the origin auther that don't mention in the paper. This is a （+-5）in the Img-level roc_auc in this code， because the 32 MAE mask is generated randomly， that some mask maybe perfect, so the score will rise, if you are lucky. I don't run like 10 time to get a mean value.
 
 
 ## CKPT
