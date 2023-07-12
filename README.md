@@ -5,7 +5,7 @@ This repository currently only contain Zero-shot prediction.
 
 ## TODO
 - [x] implement the lora training code
-- [x] pixel-level roc_auc
+- [x] pixel-level auroc
 
 ## Setup
 ```
